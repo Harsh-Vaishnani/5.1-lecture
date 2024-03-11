@@ -90,19 +90,19 @@ int main()
 
  //--------Q5-------
 
-int ma[3][3] = {{11, 12, 13}, 
-                {4, 5, 6},
-                {7, 8, 9}};
+// int ma[3][3] = {{11, 12, 13}, 
+//                 {4, 5, 6},
+//                 {7, 8, 9}};
     
-    cout << "Row-wise Sum:" << endl;
-    for(int i=0; i<3; ++i) {
-        int rowSum = 0;
-        for(int j=0; j<3; ++j) {
-            // cout<<ma[i][j];
-           rowSum += ma[i][j];
-        }
-      cout << "Row " << i+1 << ": " << rowSum << endl;
-    }
+//     cout << "Row-wise Sum:" << endl;
+//     for(int i=0; i<3; ++i) {
+//         int rowSum = 0;
+//         for(int j=0; j<3; ++j) {
+//             // cout<<ma[i][j];
+//            rowSum += ma[i][j];
+//         }
+//       cout << "Row " << i+1 << ": " << rowSum << endl;
+//     }
 
 //   
 //     cout << "Column-wise Sum:" << endl;
@@ -114,4 +114,23 @@ int ma[3][3] = {{11, 12, 13},
 //      cout << "Column " << j+1 << ": " << colSum<<endl;
 //      }
 
+}
+
+
+
+
+
+#include <iostream>
+using namespace std;
+int main(){
+    int p;
+    cout<<"Enter Any Number ";
+    cin>>p;
+   if(p%p==0 || p/2==1){
+        cout<<"yes";
+    }
+    else{
+        cout<<"no";
+    }
+return 0;
 }
